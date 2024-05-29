@@ -7,6 +7,7 @@
 class TestApp:
     def __init__(self):
         self.name = "Fedor"
+        self.surname = "Maziev"
 
     def print_name(self) -> None:
         print(self.name)
